@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["F6X0F"]); }
+
+__d("ShareAudience",[],(function(a,b,c,d,e,f){"use strict";__p&&__p();var g=Object.freeze({EVERYONE:"everyone",FRIENDS:"friends",FOF:"fof",SELF:"self",CUSTOM:"custom",PAGE:"page",GROUP:"group",MESSENGER:"messenger",FRIEND_TIMELINE:"friend_timeline",UNKNOWN:"unknown",fromPrivacyString:function(a){switch(a){case null:case undefined:case g.UNKNOWN:return g.UNKNOWN;case"286958161406148":return g.SELF;case"300645083384735":return g.EVERYONE;case"368493386561757":case"275425949243301":return g.FOF;case"123780391104836":case"291667064279714":return g.FRIENDS;default:return g.CUSTOM}}});e.exports=g}),null);

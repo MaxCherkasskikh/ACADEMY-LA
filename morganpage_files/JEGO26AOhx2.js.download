@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["XawmT"]); }
+
+__d("shallowCompare",["fbjs/lib/shallowEqual"],(function(a,b,c,d,e,f,g){"use strict";function a(a,b,c){return!g(a.props,b)||!g(a.state,c)}e.exports=a}),null);
+__d("ReactComponentWithPureRenderMixin",["shallowCompare"],(function(a,b,c,d,e,f,g){"use strict";a={shouldComponentUpdate:function(a,b){return g(this,a,b)}};e.exports=a}),null);

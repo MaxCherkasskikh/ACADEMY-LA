@@ -1,0 +1,1261 @@
+/* --------------------- GENERAL ----------------------- */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica LT Std Blk Cond', sans-serif;
+    color: rgb(255, 0, 219);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 0, 219);
+}
+
+a:link{
+  text-decoration: none!important;
+}
+
+/* ------------------- MAIN HEADER --------------------- */
+
+#borderdiv {
+    position: absolute;
+    height: 4740px;
+    width: 96%;
+    margin-top: 40px;
+    margin-left: 2%;
+    border: 10px solid rgb(255, 0, 219);
+    border-radius: 5px;
+    z-index: 23;
+}
+
+#screencontainer {
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+}
+
+#screen1 {
+    position: fixed;
+    height: 80%;
+    width: 39.4%;
+    margin-left: 0%;
+    background: url(screengiphy24.gif);
+    background-size: 2200px 800px;
+    background-position: 0px 0px;
+    -webkit-clip-path: polygon(30% 0, 0 0, 0 25%, 68% 70%, 80% 80%, 85% 90%, 85% 100%, 100% 100%, 100% 90%, 97% 80%, 92% 70%);
+    clip-path: polygon(30% 0, 0 0, 0 25%, 68% 70%, 80% 80%, 85% 90%, 85% 100%, 100% 100%, 100% 90%, 97% 80%, 92% 70%);
+}
+
+#screen2 {
+    position: fixed;
+    height: 80%;
+    width: 33%;
+    margin-left: 13.7%;
+    background: url(screengiphy24.gif);
+    background-size: 1700px 800px;
+    background-position: -130px 0px;
+    -webkit-clip-path: polygon(60% 0, 95% 70%, 98% 80%, 100% 90%, 100% 100%, 80% 100%, 80% 90%, 78% 82%, 70% 70%, 0 0);
+    clip-path: polygon(60% 0, 95% 70%, 98% 80%, 100% 90%, 100% 100%, 80% 100%, 80% 90%, 78% 82%, 70% 70%, 0 0);
+}
+
+#screen3 {
+    position: fixed;
+    height: 80%;
+    width: 26.2%;
+    margin-left: 36.9%;
+    background: url(screengiphy24.gif);
+    background-size: 1700px 800px;
+    background-position: -590px 0px;
+    -webkit-clip-path: polygon(100% 0, 65% 70%, 62% 80%, 60% 90%, 60% 100%, 40% 100%, 40% 90%, 38% 80%, 35% 70%, 0 0);
+    clip-path: polygon(100% 0, 65% 70%, 62% 80%, 60% 90%, 60% 100%, 40% 100%, 40% 90%, 38% 80%, 35% 70%, 0 0);
+}
+
+#screen4 {
+    position: fixed;
+    height: 80%;
+    width: 33%;
+    margin-left: 53.3%;
+    background: url(screengiphy24.gif);
+    background-size: 1700px 800px;
+    background-position: -900px 0px;
+    -webkit-clip-path: polygon(40% 0, 100% 0, 30% 70%, 23% 80%, 20% 90%, 20% 100%, 0 100%, 0 90%, 2% 80%, 5% 70%);
+    clip-path: polygon(40% 0, 100% 0, 30% 70%, 23% 80%, 20% 90%, 20% 100%, 0 100%, 0 90%, 2% 80%, 5% 70%);
+}
+
+#screen5 {
+    position: fixed;
+    height: 80%;
+    width: 39.4%;
+    margin-left: 60.6%;
+    background: url(screengiphy24.gif);
+    background-size: 2200px 800px;
+    background-position: -1400px 0px;
+    -webkit-clip-path: polygon(100% 0, 70% 0, 8% 70%, 3% 80%, 0 90%, 0 100%, 15% 100%, 15% 90%, 20% 80%, 32% 70%, 100% 25%);
+    clip-path: polygon(100% 0, 70% 0, 8% 70%, 3% 80%, 0 90%, 0 100%, 15% 100%, 15% 90%, 20% 80%, 32% 70%, 100% 25%);
+}
+
+.screensinitial {
+    display: inline-block;
+}
+
+.screensgone {
+    display: none;
+}
+
+#logodiv {
+    position: absolute;
+    height: 930px;
+    width: 20%;
+    margin-top: -7%;
+    margin-left: 40%;
+    background: rgba(255, 0, 219, 0.3);
+    transform: rotateX(-70deg);
+    -webkit-clip-path: polygon(50% 0, 0 100%, 12% 91%, 44% 26%, 75% 91%, 12% 91%, 0 100%, 100% 100%);
+    clip-path: polygon(50% 0, 0 100%, 12% 91%, 44% 26%, 75% 91%, 12% 91%, 0 100%, 100% 100%);
+    z-index: 2;
+  
+  
+  
+  	/* -----------------------------------------------
+  	animation: logobackgroundchange 60s infinite ease;
+    ----------------------------------------------- */
+  
+  
+  
+}
+
+@keyframes logobackgroundchange {
+    0% {
+        background: rgba(255, 0, 0, 0.3);
+    }
+    4% {
+        background: rgba(255, 64, 0, 0.3);
+    }
+    8% {
+        background: rgba(255, 128, 0, 0.3);
+    }
+    12% {
+        background: rgba(255, 191, 0, 0.3);
+    }
+    16% {
+        background: rgba(255, 255, 0, 0.3);
+    }
+    20% {
+        background: rgba(191, 255, 0, 0.3);
+    }
+    24% {
+        background: rgba(128, 255, 0, 0.3);
+    }
+    28% {
+        background: rgba(64, 255, 0, 0.3);
+    }
+    32% {
+        background: rgba(0, 255, 0, 0.3);
+    }
+    36% {
+        background: rgba(0, 255, 64, 0.3);
+    }
+    40% {
+        background: rgba(0, 255, 128, 0.3);
+    }
+    4% {
+        background: rgba(0, 255, 191, 0.3);
+    }
+    48% {
+        background: rgba(0, 255, 255, 0.3);
+    }
+    52% {
+        background: rgba(0, 191, 255, 0.3);
+    }
+    56% {
+        background: rgba(0, 128, 255, 0.3);
+    }
+    60% {
+        background: rgba(0, 64, 255, 0.3);
+    }
+    64% {
+        background: rgba(0, 0, 255, 0.3);
+    }
+    68% {
+        background: rgba(64, 0, 255, 0.3);
+    }
+    72% {
+        background: rgba(128, 0, 255, 0.3);
+    }
+    76% {
+        background: rgba(191, 0, 255, 0.3);
+    }
+    80% {
+        background: rgba(255, 0, 255, 0.3);
+    }
+    84% {
+        background: rgba(255, 0, 191, 0.3);
+    }
+    88% {
+        background: rgba(255, 0, 128, 0.3);
+    }
+    92% {
+        background: rgba(255, 0, 64, 0.3);
+    }
+    96% {
+        background: rgba(255, 0, 0, 0.3);
+    }
+}
+
+/* ----------------------- MENU ------------------------- */
+
+#menucontainer {
+    width: 100%;
+    overflow: hidden;
+    z-index: 5;
+}
+
+#menubackground {
+    position: absolute;
+    height: 35px;
+    width: 100%;
+    margin-top: 640px;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 0;
+    display: none;
+}
+
+.noDecoration, a:link, a:visited {
+    text-decoration: none;
+}
+
+a:-webkit-any-link { 
+  	color: rgb(255, 0, 219);
+}
+
+.menustateinitial {
+    position: absolute;
+    height: 50px;
+    width: 36%;
+    margin-top: 637px;
+    margin-left: 32%;
+    margin-right: 32%;
+    padding: 0px;
+    font-size: 16px;
+    transform: perspective(1000px);
+}
+
+    .menustate1 {
+        position: absolute;
+        height: 50px;
+        width: 39.2%;
+        margin-top: 637px;
+        margin-left: 30.4%;
+        margin-right: 30.4%;
+        padding: 0px;
+        font-size: 17px;
+    }
+
+    .menustate2 {
+        position: absolute;
+        height: 50px;
+        width: 43.1%;
+        margin-top: 637px;
+        margin-left: 28.4%;
+        margin-right: 28.8%;
+        padding: 0px;
+        font-size: 17.5px;
+    }
+
+    .menustate3 {
+        position: absolute;
+        height: 50px;
+        width: 48.2%;
+        margin-top: 637px;
+        margin-left: 26%;
+        margin-right: 27.2%;
+        padding: 0px;
+        font-size: 18px;
+    }
+
+    .menustate4 {
+        position: absolute;
+        height: 50px;
+        width: 54%;
+        margin-top: 637px;
+        margin-left: 23%;
+        margin-right: 26.6%;
+        padding: 0px;
+        font-size: 18.5px;
+    }
+
+    .menustate5 {
+        position: absolute;
+        height: 50px;
+        width: 60%;
+        margin-top: 637px;
+        margin-left: 20%;
+        margin-right: 24%;
+        padding: 0px;
+        font-size: 19px;
+    }
+
+    .menustate6 {
+        position: absolute;
+        height: 50px;
+        width: 66.2%;
+        margin-top: 637px;
+        margin-left: 16.8%;
+        margin-right: 22.4%;
+        padding: 0px;
+        font-size: 19.5px;
+    }
+
+    .menustate7 {
+        position: absolute;
+        height: 50px;
+        width: 72.5%;
+        margin-top: 637px;
+        margin-left: 13.8%;
+        margin-right: 20.8%;
+        padding: 0px;
+        font-size: 20px;
+    }
+
+    .menustate8 {
+        position: absolute;
+        height: 50px;
+        width: 79.2%;
+        margin-top: 637px;
+        margin-left: 10.5%;
+        margin-right: 19.2%;
+        padding: 0px;
+        font-size: 20.5px;
+    }
+
+    .menustate9 {
+        position: absolute;
+        height: 50px;
+        width: 84%;
+        margin-top: 637px;
+        margin-left: 8%;
+        margin-right: 17.6%;
+        padding: 0px;
+        font-size: 21px;
+    }
+
+    .menustate10 {
+        position: absolute;
+        height: 50px;
+        width: 90%;
+        margin-top: 637px;
+        margin-left: 5%;
+        margin-right: 16%;
+        padding: 0px;
+        font-size: 21.5px;
+    }
+
+    .menustate11 {
+        position: absolute;
+        height: 50px;
+        width: 96%;
+        margin-top: 637px;
+        margin-left: 2.2%;
+        margin-right: 14.4%;
+        padding: 0px;
+        font-size: 22px;
+    }
+
+    .menustate12 {
+        position: absolute;
+        height: 50px;
+        width: 100.6%;
+        margin-top: 637px;
+        margin-left: -0.6%;
+        margin-right: 12.8%;
+        padding: 0px;
+        font-size: 22.5px;
+    }
+
+    .menustate13 {
+        position: absolute;
+        height: 50px;
+        width: 105.4%;
+        margin-top: 637px;
+        margin-left: -3%;
+        margin-right: 11.2%;
+        padding: 0px;
+        font-size: 23px;
+    }
+
+    .menustate14 {
+        position: absolute;
+        height: 50px;
+        width: 108.7%;
+        margin-top: 637px;
+        margin-left: -4.7%;
+        margin-right: 9.6%;
+        padding: 0px;
+        font-size: 23.5px;
+    }
+
+    .menustate15 {
+        position: absolute;
+        height: 50px;
+        width: 112.2%;
+        margin-top: 637px;
+        margin-left: -6.4%;
+        margin-right: 8%;
+        padding: 0px;
+        font-size: 24px;
+    }
+
+    .menustate16 {
+        position: absolute;
+        height: 50px;
+        width: 114.2%;
+        margin-top: 637px;
+        margin-left: -7.3%;
+        margin-right: 6.4%;
+        padding: 0px;
+        font-size: 24.5px;
+    }
+
+    .menustate17 {
+        position: absolute;
+        height: 50px;
+        width: 90.4%;
+        margin-top: 637px;
+        margin-left: 4.8%;
+        margin-right: 4.8%;
+        padding: 0px;
+        font-size: 25px;
+    }
+
+    .menustate18 {
+        position: absolute;
+        height: 50px;
+        width: 93.6%;
+        margin-top: 637px;
+        margin-left: 3.2%;
+        margin-right: 3.2%;
+        padding: 0px;
+        font-size: 25.5px;
+    }
+
+    .menustate19 {
+        position: absolute;
+        height: 50px;
+        width: 96.8%;
+        margin-top: 637px;
+        margin-left: 1.6%;
+        margin-right: 1.6%;
+        padding: 0px;
+        font-size: 26px;
+    }
+
+    .menustate20 {
+        position: absolute;
+        height: 50px;
+        width: 100%;
+        margin-top: 637px;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding: 0px;
+        font-size: 26.5px;
+    }
+
+#menurow {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#ticketsdiv {
+    position: relative;
+    height: 48px;
+    width: 20%;
+}
+
+#facebookdiv {
+    position: relative;
+    height: 48px;
+    width: 20%;
+}
+
+#twitterdiv {
+    position: relative;
+    height: 48px;
+    width: 20%;
+}
+
+#instagramdiv {
+    position: relative;
+    height: 48px;
+    width: 20%;
+}
+
+#reservationsdiv {
+    position: relative;
+    height: 48px;
+    width: 20%;
+}
+
+.menubuttonsinitial {
+    width: 100%;
+    border: 1px solid red;
+}
+
+    #ticketsbutton {
+        height: 40px;
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: rgb(255, 0, 219);
+        background: none;
+        border: none;
+        
+    }
+
+    #facebookbutton {
+        height: 40px;
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: rgb(255, 0, 219);
+        background: none;
+        border: none;
+        
+    }
+
+    #twitterbutton {
+        height: 40px;
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: rgb(255, 0, 219);
+        background: none;
+        border: none;
+        
+    }
+
+    #instagrambutton {
+        height: 40px;
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: rgb(255, 0, 219);
+        background: none;
+        border: none;
+        
+    }
+
+    #reservationsbutton {
+        height: 40px;
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: rgb(255, 0, 219);
+        background: none;
+        border: none;
+    }
+
+#subscribebutton {
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    margin-top: 1620px;
+    margin-bottom: px;
+    margin-left: px;
+    margin-right: px;
+    text-align: center;
+    color: balck;
+    text-decoration: none;
+    background: linear-gradient(to right, black, black, rgb(255, 0, 219), rgb(255, 0, 219), rgb(255, 0, 219), rgb(255, 0, 219), rgb(255, 0, 219), rgb(255, 0, 219), rgb(255, 0, 219), black, black);
+    border: 1px solid;
+    z-index: 10;
+}
+
+/* -------------------- HIGHLIGHTS ---------------------- */
+
+#academyname {
+    position: absolute;
+    margin-top: 720px;
+    margin-left: 14%;
+    font-size: 200px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    background: url(la4.jpg);
+    background-size: 1100px 1000px;
+    background-position: 250px 0px;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 4;
+}
+
+#highlightdiv {
+    position: absolute;
+    height: 1000px;;
+    width: 100%;
+    margin-top: 638px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9), black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black);
+}
+
+#morganpagevideo {
+    position: absolute;
+    height: 700px;
+    width: 50%;
+    margin-top: 305px;
+    margin-left: 25%;
+    z-index: 5;
+}
+
+#upcomingartistheaderfilter {
+    position: absolute;
+    height: 45px;
+    width: 50%;
+    margin-top: 997px;
+    margin-left: 25%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 5;
+}
+
+#upcomingartistheader {
+    position: absolute;
+    margin-top: 988px;
+    margin-left: 34.4%;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 0, 219);
+    z-index: 5;
+}
+
+#leftpane {
+    position: absolute;
+    height: 50%;
+    width: 35%;
+    margin-top: 760px;
+    -webkit-clip-path: polygon(0 0, 100% 25%, 100% 75%, 0% 100%);
+    clip-path: polygon(0 0, 100% 25%, 100% 75%, 0% 100%);
+    z-index: 2;
+}
+
+#rightpane {
+    position: absolute;
+    height: 50%;
+    width: 35%;
+    margin-top: 760px;
+    margin-left: 65%;
+    -webkit-clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 75%);
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 75%);
+    z-index: 2;
+}
+
+#leftpaneimage {
+    position: absolute;
+    height: 140%;
+    width: 100%;
+    margin-top: -17%;
+    overflow: hidden;
+}
+
+#rightpaneimage {
+    position: absolute;
+    height: 140%;
+    width: 100%;
+    margin-top: -17.5%;
+    overflow: hidden;
+}
+
+#leftpanefilter {
+    position: absolute;
+    height: 50.2%;
+    width: 35%;
+    margin-top: 759px;
+    background: rgba(20, 15, 21, 0.8);
+    -webkit-clip-path: polygon(0 0, 100% 25%, 100% 75%, 0% 100%);
+    clip-path: polygon(0 0, 100% 25%, 100% 75%, 0% 100%);
+    z-index: 2;
+}
+
+#leftpanevail {
+    position: absolute;
+    height: 50.2%;
+    width: 35%;
+    margin-top: 759px;
+    background: linear-gradient(to left, black, rgba(19, 17, 25, 0.1), rgba(0, 0, 0, 0.3));
+    -webkit-clip-path: polygon(0 0, 100% 25%, 100% 75%, 0% 100%);
+    clip-path: polygon(0 0, 100% 25%, 100% 75%, 0% 100%);
+    z-index: 3;
+}
+
+#rightpanefilter {
+    position: absolute;
+    height: 50.2%;
+    width: 35%;
+    margin-top: 759px;
+    margin-left: 65%;
+    background: rgba(20, 15, 21, 0.8);
+    -webkit-clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 75%);
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 75%);
+    z-index: 2;
+}
+
+#rightpanevail {
+    position: absolute;
+    height: 50.2%;
+    width: 35%;
+    margin-top: 759px;
+    margin-left: 65%;
+    background: linear-gradient(to right, black, rgba(19, 17, 25, 0.5), rgba(0, 0, 0, 0.3));
+    -webkit-clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 75%);
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 75%);
+    z-index: 3;
+}
+
+/* ---------------------- SLIDER ------------------------ */
+
+#imageslidercontainerdiv {
+    position: absolute;
+    height: 720px;
+    width: 100%;
+    margin-top: 1580px;
+    background: black;
+    z-index: 1;
+}
+
+#imagesliderheaderfilter {
+    position: absolute;
+    height: 50px;
+    width: 50%;
+    margin-top: 107px;
+    margin-left: 25%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 5;
+}
+
+#sliderheader {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 27%;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 0, 219);
+    z-index: 5;
+}
+
+#imagesliderdiv {
+    position: absolute;
+    height: 600px;
+    width: 50%;
+    margin-top: 90px;
+    margin-left: 25%;
+    z-index: 2;
+}
+
+#imagesliderfilter {
+    position: absolute;
+    height: 600px;
+    width: 50%;
+    margin-top: 90px;
+    margin-left: 25%;
+    float: right;
+    background: linear-gradient(to right, black, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), black);
+    overflow: hidden;
+    z-index: 2;
+}
+
+/* --------------------- CALENDAR ----------------------- */
+
+#calendarcontainermain {
+    height: 2020px;
+    width: 100%;
+    margin-top: 2300px;
+    background: url(namelogobackground6.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+#calendardiv {
+    position: absolute;
+    height: 2020px;
+    width: 100%;
+    margin-top: ;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#thomasgolddiv {
+    position: absolute;
+    height: 400px;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#paulvandykdiv {
+    position: absolute;
+    height: 400px;
+    width: 50%;
+    margin-top: 420px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#makjdiv {
+    position: absolute;
+    height: 400px;
+    width: 50%;
+    margin-top: 820px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#artydiv {
+    position: absolute;
+    height: 400px;
+    width: 50%;
+    margin-top: 1220px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#dondiablodiv {
+    position: absolute;
+    height: 400px;
+    width: 50%;
+    margin-top: 1620px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.artistimages {
+    position: absolute;
+    height: 380px;
+    width: 45%;
+}
+
+.datepars {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 0, 219);
+    transform: rotate(-90deg);
+}
+
+#thomasgolddatepar {
+    margin-top: 160px;
+    margin-left: -15.5%;
+}
+
+#paulvandykdatepar {
+    margin-top: 160px;
+    margin-left: -18%;
+}
+
+#makjdatepar {
+    margin-top: 160px;
+    margin-left: -15.4%;
+}
+
+#artydatepar {
+    margin-top: 160px;
+    margin-left: -18%;
+}
+
+#dondiablodatepar {
+    margin-top: 160px;
+    margin-left: -18%;
+}
+
+.broughtoyoubypars {
+    position: absolute;
+    font-size: 26px;
+    color: rgb(255, 0, 219);
+    margin-top: px;
+    margin-left: 50%;
+}
+
+.artistnameheaders {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 50%;
+    font-size: 60px;
+    color: rgb(255, 0, 219);
+}
+
+.pricepars {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 50%;
+    font-size: 20px;
+    color: rgb(255, 0, 219);
+}
+
+.getticketsbuttons {
+    position: absolute;
+    height: px;
+    width: px;
+    margin-top: 200px;
+    margin-left: 50%;
+    color: rgb(255, 0, 219);
+    background: none;
+    border: 1px solid rgb(255, 0, 219);
+    border-radius: 3px;
+}
+
+.showtimepars {
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 50%;
+    font-size: 20px;
+    color: rgb(255, 0, 219);
+}
+
+/* ---------------------- CLOSER ------------------------ */
+
+#closerdiv {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    background: black;
+}
+
+#insomniacheader {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 42.5%;
+    color: rgb(255, 0, 219);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#addresspar {
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 38.7%;
+    color: rgb(255, 0, 219);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#phoneandinfoemailpar {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 41.3%;
+    color: rgb(255, 0, 219);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#forvenuerentalpar {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 38.2%;
+    color: rgb(255, 0, 219);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* -------------------------  --------------------------- */
+
+@media screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+  
+  a:link {
+    color: rgb(255, 0, 219);
+  }
+    
+  a:active {
+    color: rgb(255, 0, 219);
+  }
+    
+  #borderdiv {
+    display: none;
+  }
+        
+  #screencontainer {
+    position: fixed;
+    height: 300px;
+    margin-top: 0px;
+    overflow: hidden;
+    z-index: 0;
+  }
+    
+  #screen1 {
+    background-size: 500px 350px;
+    background-position: -59px -70px;
+    z-index: 0;
+  }
+    
+  #screen2 {
+    background-size: 500px 350px;
+    background-position: -110px -70px;
+    z-index: 0;
+  }
+    
+  #screen3 {
+    background-size: 500px 350px;
+    background-position: -200px -70px;
+    z-index: 0;
+  }
+    
+  #screen4 {
+    background-size: 500px 350px;
+    background-position: -260px -70px;
+    z-index: 0;
+  }
+    
+  #screen5 {
+    background-size: 500px 350px;
+    background-position: -290px -70px;
+    z-index: 0;
+  }
+    
+  #logodiv {
+    height: 270px;
+    width: 100px;
+    margin-top: -80px;
+    margin-left: 139px;
+    -webkit-clip-path: polygon(50% 0, 0 100%, 12% 91%, 44% 26%, 75% 91%, 12% 91%, 0 100%, 100% 100%);
+    clip-path: polygon(50% 0, 0 100%, 12% 91%, 44% 26%, 75% 91%, 12% 91%, 0 100%, 100% 100%);
+    z-index: 3;
+  }
+    
+  #menucontainer {
+    width: 100%;
+    border: 1px solid rgb(255, 0, 219);
+  }
+    
+  .menustateinitial {
+    margin-top: 0px;
+    z-index: 5;
+  }
+    
+  #ticketsbutton {
+    height: 30px;
+    width: 140px;
+    margin-top: 74px;
+    margin-left: -18px;
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+  }
+    
+  #facebookbutton {
+    height: 30px;
+    width: 140px;
+    margin-top: 113px;
+    margin-left: -48px;
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+  }
+    
+  #twitterbutton {
+    height: 30px;
+    width: 140px;
+    margin-top: 152px;
+    margin-left: -78px;
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+  }
+    
+  #instagrambutton {
+    height: 30px;
+    width: 140px;
+    margin-top: 190px;
+    margin-left: -108px;
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+  }
+    
+  #reservationsbutton {
+    height: 30px;
+    width: 147px;
+    margin-top: 180px;
+    margin-left: -22px;
+    text-align: center;
+    color: rgb(255, 0, 219);
+    text-decoration: none;
+  }
+    
+  #academyname {
+    margin-top: -830px;
+    margin-left: 40px;
+    font-size: 40px;
+    letter-spacing: 4px;
+    -webkit-text-fill-color: rgb(255, 0, 219);
+    z-index: 22;
+    
+    display: none;
+  }
+    
+  #highlightdiv {
+    margin-top: -940px;
+    background: black;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9), black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black);
+    
+    display: none;
+  }
+    
+  #morganpagevideo {
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10%;
+    z-index: 25;
+    
+    display: none;
+  }
+    
+  #upcomingartistheader {
+    font-size: 25px;
+    
+    display: none;
+  }
+    
+  #leftpane {
+    margin-top: -850px;
+    z-index: 20;
+    
+    display: none;
+  }
+    
+  #rightpane {
+    margin-top: -850px;
+    z-index: 20;
+    
+    display: none;
+  }
+    
+  #leftpaneimage {
+    width: 150%;
+    margin-top: -60px;
+    margin-left: -20%;
+    
+    display: none;
+  }
+    
+  #rightpaneimage {
+    width: 150%;
+    margin-top: -60px;
+    margin-left: -30%;
+    
+    display: none;
+  }
+    
+  #leftpanevail {
+    margin-top: -850px;
+    
+    display: none;
+  }
+    
+  #rightpanevail {
+    margin-top: -850px;
+    
+    display: none;
+  }
+    
+  #leftpanefilter {
+    margin-top: -850px;
+    
+    display: none;
+  }
+    
+  #rightpanefilter {
+    margin-top: -850px;
+    
+    display: none;
+  }
+    
+  #imageslidercontainerdiv {
+    display: none;
+  }
+    
+  #sliderheader {
+    font-size: 25px;
+    
+    display: none;
+  }
+    
+  #calendarcontainermain {
+    margin-top: 1000px;
+    
+    display: none;
+  }
+    
+  .artistimages {
+    height: 50px;
+    
+    display: none;
+  }
+    
+  .datepars {
+    font-size: 10px;
+    
+    display: none;
+  }
+    
+  .broughtoyoubypars {
+    font-size: 15px;
+    
+    display: none;
+  }
+    
+  .artistnameheaders {
+    font-size: 30px;
+    
+    display: none;
+  }
+    
+  .pricepars {
+    font-size: 10px;
+    
+    display: none;
+  }
+    
+  .showtimepars {
+    font-size: 10px;
+    
+    display: none;
+  }
+  
+  #imagesliderdiv {
+    height: 80px;
+    
+    display: none;
+  }
+    
+  #calendarcontainermain {
+    background: none;
+    
+    display: none;
+  }
+    
+  #closerdiv {
+    display: none;
+  }
+    
+  #closerfilterdiv {
+    display: none;
+  }
+}

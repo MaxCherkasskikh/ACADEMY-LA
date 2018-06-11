@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Hx+az"]); }
+
+__d("GeneratedArtilleryUserTimingSink",["GeneratedSinkUtils"],(function(a,b,c,d,e,f,g){"use strict";a=g.createSink;b=8192;c=function(a){return a};e.exports=a({scalars:{navStart:"float64"},entries:{startTime:"float64",duration:"float64",name:"string"}},c,b,"GeneratedArtilleryUserTimingSink")}),null);

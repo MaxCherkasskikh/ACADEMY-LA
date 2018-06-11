@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["z12Q7"]); }
+
+__d("ImageTimingHelper",["Arbiter","BigPipe","URI"],(function(a,b,c,d,e,f,g,h,i){__p&&__p();var j={},k={};function l(a){__p&&__p();var b=a.lid,c=a.pagelet,d=a.images,e=a.timeslice,f=a.ts,g=j[b];g||(g=j[b]=[]);d.forEach(function(a){try{var b=new i(a);a=b.setFragment("").toString()}catch(a){return}if(k[a])return;k[a]=!0;g.push({pagelet:c,timeslice:e,ts:f,uri:a})})}g.subscribe(h.Events.init,function(a,b){b.lid&&b.lid!=="0"&&b.arbiter.subscribe("images_displayed",function(a,b){l(b)})});g.subscribe("MRenderingScheduler/images_displayed",function(a,b){l(b)});e.exports.getImageTimings=function(a){return j[a]||[]}}),null);

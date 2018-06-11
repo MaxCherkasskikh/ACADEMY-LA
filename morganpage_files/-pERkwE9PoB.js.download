@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["uoHpY"]); }
+
+__d("MMessagesThreadRowID",[],(function(a,b,c,d,e,f){"use strict";var g="other_user_fbid_",h="thread_fbid_";function a(a,b,c){return a+(b?g+b:h+String(c))}e.exports={getThreadRowID:a}}),null);

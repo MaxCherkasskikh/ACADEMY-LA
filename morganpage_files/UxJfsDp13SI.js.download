@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["RGa5H"]); }
+
+__d("SearchLoggingClientUnitIdPrefix",[],(function(a,b,c,d,e,f){e.exports=Object.freeze({WWW_BEM:"www_bem",WWW_BEM_RES:"www_bem_res",WWW_INSTANT_BEM:"www_instant_bem",MTOUCH_BEM:"mtouch_bem",MTOUCH_BEM_RES:"mtouch_bem_res"})}),null);
